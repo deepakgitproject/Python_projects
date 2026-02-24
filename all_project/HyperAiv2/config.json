@@ -1,0 +1,22 @@
+{
+    "_readme": "Hyper AI v2.0 — config. Place next to hyper_ai.py. Restart after every edit.",
+
+    "_api_note": "Get your FREE key at https://openrouter.ai/keys",
+    "openrouter_api_key": "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",
+
+    "_whisper_note": "tiny.en = fastest, base.en = balanced, small.en = most accurate",
+    "whisper_model": "base.en",
+
+    "_hotkey_note": "Global keyboard shortcut to activate listening",
+    "hotkey": "alt+shift+1",
+
+    "_weather_note": "Used when you say 'weather' with no city name",
+    "default_city": "New Delhi",
+
+    "_custom_note": "Say the key phrase → runs the shell command",
+    "custom_commands": {
+        "open my project": "code C:\\Users\\YourName\\Projects\\MyProject",
+        "run tests": "pytest",
+        "start server": "python manage.py runserver"
+    }
+}
